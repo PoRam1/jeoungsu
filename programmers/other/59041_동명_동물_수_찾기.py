@@ -2,13 +2,14 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/59041
 # 작성자: 박정수
-# 작성일: 2026. 01. 20. 09:37:54
+# 작성일: 2026. 02. 05. 09:18:10
 
--- 코드를 입력하세요
-SELECT 
+select
     NAME,
-    count(name) as count
-from ANIMAL_INS
+    count(NAME) as COUNT
+from
+    ANIMAL_INS
+where NAME is not null
 group by NAME
-having  count(name) >=2
-order by name
+having count >= 2
+order by name;
