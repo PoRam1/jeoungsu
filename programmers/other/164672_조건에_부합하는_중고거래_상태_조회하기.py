@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/164672
 # 작성자: 박정수
-# 작성일: 2026. 02. 09. 09:07:39
+# 작성일: 2026. 02. 10. 09:00:47
 
 -- 코드를 입력하세요
 SELECT 
