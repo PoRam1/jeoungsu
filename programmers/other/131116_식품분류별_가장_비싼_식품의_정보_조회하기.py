@@ -2,21 +2,20 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/131116
 # 작성자: 박정수
-# 작성일: 2026. 02. 23. 09:24:20
+# 작성일: 2026. 02. 23. 09:31:04
 
--- 코드를 입력하세요
 SELECT 
-    CATEGORY, 
-    PRICE, 
+    CATEGORY,
+    price,
     PRODUCT_NAME
-FROM(
-    SELECT 
-        CATEGORY, 
-        PRICE, 
+from (
+    select 
+        CATEGORY,
+        price,
         PRODUCT_NAME,
-        ROW_NUMBER() OVER (PARTITION BY CATEGORY ORDER BY PRICE DESC) AS RN
-    FROM FOOD_PRODUCT
-    WHERE CATEGORY IN ('과자','국','김치','식용유')
-) F
-WHERE RN = 1
-ORDER BY PRICE DESC;
+        row_number() over (partition by CATEGORY order by price desc) as rn
+    from FOOD_PRODUCT 
+    where CATEGORY in ('과자','국','김치','식용유')
+) f
+where rn = 1
+order by price desc
