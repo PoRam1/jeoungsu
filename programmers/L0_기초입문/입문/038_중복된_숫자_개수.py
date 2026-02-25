@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120583
 # 알고리즘: 기초
 # 작성자: 박정수
-# 작성일: 2026. 02. 25. 09:23:28
+# 작성일: 2026. 02. 25. 09:24:00
 
 def solution(array, n):
     answer = 0
