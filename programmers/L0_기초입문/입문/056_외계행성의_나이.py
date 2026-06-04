@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120834
 # 알고리즘: 기초
 # 작성자: 박정수
-# 작성일: 2026. 06. 04. 09:42:25
+# 작성일: 2026. 06. 04. 09:46:56
 
 def solution(age):
     alphabet = "abcdefghij"
