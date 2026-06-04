@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120844
 # 알고리즘: 기초
 # 작성자: 박정수
-# 작성일: 2026. 06. 04. 11:11:20
+# 작성일: 2026. 06. 04. 11:13:22
 
 def solution(numbers, direction):
     if direction == "right":
