@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120838
 # 알고리즘: 기초
 # 작성자: 박정수
-# 작성일: 2026. 06. 16. 11:40:03
+# 작성일: 2026. 06. 16. 11:44:18
 
 def solution(letter):
     morse = { 
