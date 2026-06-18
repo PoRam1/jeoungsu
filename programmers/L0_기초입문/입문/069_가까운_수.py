@@ -3,15 +3,15 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120890
 # 알고리즘: 기초
 # 작성자: 박정수
-# 작성일: 2026. 06. 18. 11:42:40
+# 작성일: 2026. 06. 18. 11:57:56
 
 def solution(array, n):
     array.sort()
-
+    
     answer = array[0]
-
-    for num in array:
-        if abs(num - n) < abs(answer - n):
-            answer = num
+    
+    for i in array:
+        if abs(i - n) < abs(answer - n):
+            answer = i
 
     return answer
